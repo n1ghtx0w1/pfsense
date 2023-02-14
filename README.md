@@ -4,7 +4,7 @@
 
 ---
    
-## Background 
+## Background
 
 [pfSense](https://www.pfsense.org/) is a free and open source firewall and router that also features unified threat management, load balancing, multi WAN, and more. 
 
@@ -154,9 +154,27 @@ When you connect to the login portal you will observe a connection warning.  Cli
 
 Now you can login with the **default credentials** and further configure pfsense.
 
-### pfsense first steps
+### Quick Post Install Tip
 
-It's ideal to login and change the default credentials.
+It's ideal to login and change the default credentials. 
+
+<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/pfsense/main/pfsense-user-management.png" alt="user mngmnt" width="100" height="200">
+
+Navigating to **User Manager** within the **System** drop down menu.
+
+<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/pfsense/main/pfsense-add-user.png" alt="user mngmnt" width="600" height="300">
+
+Now add a new user to replace the default user by clicking **+ Add**.
+
+<img align="center" src="https://raw.githubusercontent.com/n1ghtx0w1/pfsense/main/pfsense-save-user.png" alt="user mngmnt" width="600" height="300">
+
+Fill out the form fields for the new user and make sure to add the new user into the **admins** in **Group Membership**.  Finally click **Save** to save the new user.
+
+Now login as the new administrative user and you can disable the default credentials.
+
+---
+
+## Tip
 
 A great video reference to installing and setting up pfsense:
 
